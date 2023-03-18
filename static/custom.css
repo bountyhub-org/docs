@@ -1,0 +1,20 @@
+/* Dark mode theming */
+:root,
+:root[color-theme="dark"] {
+    --header-background: #1b202c;
+    --header-font-color: #ffffff;
+    --body-background: #1f2a3b;
+    --code-background: #1b202c;
+    --footer-background: #1b202c;
+    --footer-link-color: #ef6c00;
+    --footer-link-color-visited: #e65100;
+    --accent-color-lite: #1b202c;
+}
+
+:root[color-theme="light"] {
+    --header-background: #1976d2;
+    --header-font-color: #ffffff;
+    --footer-background: #1b202c;
+    --footer-link-color: #ef6c00;
+    --footer-link-color-visited: #e65100;
+}
