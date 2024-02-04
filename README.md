@@ -1,57 +1,23 @@
-# Docus Starter
+# The BountyHub documentation
 
-Starter template for [Docus](https://docus.dev).
+This repository contains documentation associated with [BountyHub](https://bountyhub.org) platform.
 
-## Clone
+Documentation is written using [Docus](https://docus.dev), and all contributions are welcome!
 
-Clone the repository (using `nuxi`):
+# Contributing
 
-```bash
-npx nuxi init -t themes/docus
-```
+Feel free to browse the [open issues](https://github.com/bountyhub-org/docs/issues) or file a new one. All feedback is welcome!
 
-## Setup
+If the change is related to spelling, feel free to open a pull request right away. 
 
-Install dependencies:
+Otherwise, please raise an issue first.
 
-```bash
-yarn install
-```
+## How to test the change
 
-## Development
+You can start contributing by forking this repository. Create a branch and start the docs server. Feel free to consult the [docus guide](https://github.com/nuxt-themes/docus/tree/main/.starters/default) on how to set up the server. 
 
-```bash
-yarn dev
-```
+# License
 
-## Edge Side Rendering
+The BountyHub documentation in assets, content, and data folders are licensed under a [CC-BY-license](https://github.com/bountyhub-org/docs/blob/main/LICENSE).
 
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+All other code is licensed under the [MIT license](https://github.com/bountyhub-org/docs/blob/main/LICENSE-CODE)
