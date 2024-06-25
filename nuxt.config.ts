@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: "@nuxt-themes/docus",
   devtools: { enabled: true },
-  modules: [],
+  modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
       meta: [
@@ -39,6 +39,6 @@ export default defineNuxtConfig({
           content: "website",
         },
       ],
-    }
-  }
+    },
+  },
 });

@@ -2,6 +2,7 @@ export default defineAppConfig({
   docus: {
     title: "BountyHub Docs",
     description: "Documentation for bounty hub",
+    image: "https://docs.bountyhub.org/preview.png",
     socials: {
       github: "bountyhub-org/docs",
     },
@@ -22,11 +23,8 @@ export default defineAppConfig({
       fluid: true,
     },
     header: {
-      logo: false,
-      title: "BountyHub Docs",
-      showLinkIcon: true,
-      exclude: [],
-      fluid: true,
+      logo: true,
+      navigation: true
     },
   },
 });
