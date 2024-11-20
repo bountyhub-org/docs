@@ -1,8 +1,10 @@
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: "@nuxt-themes/docus",
+
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
+
   app: {
     head: {
       meta: [
@@ -41,4 +43,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2024-09-14",
 });
