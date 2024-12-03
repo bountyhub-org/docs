@@ -24,7 +24,17 @@ export default defineAppConfig({
     },
     header: {
       logo: true,
-      navigation: true
+      navigation: true,
+    },
+    footer: {
+      credits: false,
+      textLinks: [
+        {
+          text: "BountyHub",
+          href: "https://bountyhub.org",
+        },
+      ],
+      
     },
   },
 });
