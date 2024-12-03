@@ -34,7 +34,6 @@ export default defineAppConfig({
           href: "https://bountyhub.org",
         },
       ],
-      
     },
   },
 });
